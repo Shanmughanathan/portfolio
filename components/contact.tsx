@@ -13,7 +13,7 @@ export default function Contact() {
           center
           eyebrow="get in touch"
           title="Let's build something dependable."
-          lead="Open to backend and full-stack engineering roles. The fastest way to reach me is email."
+          lead="Not actively seeking new roles right now, but always glad to connect. The fastest way to reach me is email."
         />
         <Reveal>
           <div className="max-w-[720px] mx-auto rounded-[22px] border border-line p-[44px_32px] relative overflow-hidden" style={{ background: "linear-gradient(160deg,#111726,#0C1120)" }}>
