@@ -13,7 +13,7 @@ export const profile = {
   github: "https://github.com/Shanmughanathan",
   linkedin: "https://www.linkedin.com/in/", // TODO: replace with full LinkedIn URL
   resume: "/resume.pdf", // place your PDF in /public
-  available: true,
+  available: false,
   headline: {
     pre: "I build the",
     accent: "reliable backend",
