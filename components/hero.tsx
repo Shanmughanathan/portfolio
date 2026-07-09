@@ -108,6 +108,18 @@ const pipelines = [
     req: "e5b8-mig",
     status: "200 OK · 31ms",
   },
+  {
+    tab: "Member Portal",
+    label: "member-portal-service",
+    nodes: {
+      in:  { t: "POST", s: "/register" },
+      eng: { t: "Spring Boot", s: "auth svc" },
+      db:  { t: "Hibernate", s: "persist" },
+      out: { t: "account", s: "created" },
+    },
+    req: "b9d4-mbr",
+    status: "201 Created · 45ms",
+  },
 ];
 
 function PipelineCard() {
