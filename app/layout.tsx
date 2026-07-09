@@ -7,7 +7,7 @@ const display = Space_Grotesk({ subsets: ["latin"], variable: "--font-display", 
 const body = Inter({ subsets: ["latin"], variable: "--font-body", display: "swap" });
 const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono", display: "swap" });
 
-const url = "https://your-domain.vercel.app"; // TODO: set after deploy
+const url = "https://portfolio-eight-xi-4enbsgpj8z.vercel.app"; // TODO: set after deploy
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
