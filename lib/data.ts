@@ -43,7 +43,7 @@ export const profileCard = [
   { k: "focus", v: "Java · Spring Boot" },
   { k: "certified", v: "AWS Cloud Practitioner" },
   { k: "location", v: "Kochi, India" },
-  { k: "status", v: "Open to roles", highlight: true },
+  { k: "status", v: "Not seeking", highlight: true },
 ];
 
 export const skills = [
