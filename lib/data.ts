@@ -11,7 +11,7 @@ export const profile = {
   phone: "+91 63839 65073",
   phoneHref: "+916383965073",
   github: "https://github.com/Shanmughanathan",
-  linkedin: "https://www.linkedin.com/in/", // TODO: replace with full LinkedIn URL
+  linkedin: "https://www.linkedin.com/in/shanmughanathan/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BrDnAPkrKRWSaxMG4orichg%3D%3D", // TODO: replace with full LinkedIn URL
   resume: "/resume.pdf", // place your PDF in /public
   available: false,
   headline: {
