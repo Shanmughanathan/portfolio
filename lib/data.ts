@@ -100,6 +100,26 @@ export const experience = [
 
 export const projects = [
   {
+  badge: "Healthcare",
+  title: "Excellus BCBS / CDPHP — Member Portal",
+  sub: "Registration, Login & Account Management",
+  problem:
+    "Streamlining secure member onboarding and access to insurance services.",
+  solution:
+    "Built Spring Boot microservices and REST APIs for member registration, authentication, and account management.",
+  responsibilities: [
+    "Developed registration and login APIs.",
+    "Implemented onboarding workflows.",
+    "Managed database integration using Hibernate.",
+    "Created unit tests and supported Agile delivery."
+  ],
+  impact: [
+    "Enhanced user onboarding experience.",
+    "Improved platform reliability and security."
+  ],
+  stack: ["Java", "Spring Boot", "REST API", "Hibernate", "Microservices"],
+  },
+  {
     badge: "Airline",
     title: "Delta Airlines — Flight-Order Engine",
     sub: "PNR generation & lifecycle management",
