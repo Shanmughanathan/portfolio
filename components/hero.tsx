@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="max-w-content mx-auto px-6 w-full grid lg:grid-cols-[1.05fr_.95fr] gap-14 items-center">
         <motion.div variants={container} initial="hidden" animate="show">
           <motion.div variants={item} className="font-mono text-[12.5px] text-lo mb-6 flex items-center gap-2.5 flex-wrap">
-            <span className="font-mono text-[11.5px] px-2.5 py-1 rounded-full border border-signal/35 text-signal bg-signal/[.06]">● available for opportunities</span>
+            <span className="font-mono text-[11.5px] px-2.5 py-1 rounded-full border border-signal/35 text-signal bg-signal/[.06]">● not currently seeking roles</span>
             <span className="font-mono text-[11.5px] px-2.5 py-1 rounded-full border border-line-2 text-mid bg-surface">{profile.location}</span>
           </motion.div>
 
